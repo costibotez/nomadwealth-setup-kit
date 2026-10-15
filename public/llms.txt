@@ -1,0 +1,20 @@
+# NomadWealth Private Setup Kit
+
+This is a noindex, static onboarding guide for a buyer-owned NomadWealth deployment.
+
+- Start: /index.html
+- Prerequisites: /guide/01-prerequisites.html
+- Neon database: /guide/02-neon-database.html
+- Vercel deploy: /guide/03-deploy-to-vercel.html
+- Environment variables: /guide/04-environment-variables.html
+- Setup wizard: /guide/05-setup-wizard.html
+- Lite vs Pro: /guide/06-license-and-lite-vs-pro.html
+- Import: /guide/07-import-your-data.html
+- Optional keys and cron: /guide/08-optional-keys-and-cron.html
+- Custom domain: /guide/09-custom-domain.html
+- Updating: /guide/10-updating.html
+- Troubleshooting: /troubleshooting.html
+- Security checklist: /security-checklist.html
+- Privacy: /privacy.html
+
+The guide collects no credentials, financial data, analytics, cookies, or telemetry. The URL is unlisted, not authenticated.

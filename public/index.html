@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="A private, static onboarding guide for setting up NomadWealth on your own Vercel and Neon accounts.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <title>Private Setup Kit · NomadWealth</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="header-inner">
+    <a class="brand" href="/index.html"><span class="brand-mark" aria-hidden="true">N</span><span>NomadWealth <span class="mono muted">/ SETUP KIT</span></span></a>
+    <nav class="header-nav" aria-label="Primary"><a href="/guide/01-prerequisites.html">Start here</a><a href="/troubleshooting.html">Troubleshooting</a><a href="/privacy.html">Privacy</a></nav>
+  </div></header>
+  <main>
+    <section class="hero"><div class="container hero-inner">
+      <p class="eyebrow">Private Setup Kit</p>
+      <h1>Your cockpit, on infrastructure you control.</h1>
+      <p class="lede">A calm, step-by-step path from a fresh Vercel and Neon project to your first private NomadWealth dashboard. Nothing on this guide asks for, stores, or transmits your secrets.</p>
+      <div class="hero-actions"><a class="button primary" href="/guide/01-prerequisites.html">Start the setup →</a><a class="button secondary" href="/security-checklist.html">Open security checklist</a></div>
+      <div class="notice"><strong>Unlisted, not authenticated.</strong> This is a convenience handoff. Anyone who learns the URL can read it, so this site contains documentation and placeholders only. It has no forms, analytics, cookies, or database.</div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-heading"><p class="eyebrow">The path</p><h2>Six checkpoints. One owner-controlled install.</h2><p>Set aside roughly 20–30 minutes. Most of the time is Vercel building the app and Neon creating your database.</p></div>
+      <div class="grid cards">
+        <article class="card accent"><p class="kicker">01 · Prepare</p><h3>Have the right accounts</h3><p>Vercel, Neon, a password manager, and a private place to keep generated secrets.</p><a href="/guide/01-prerequisites.html">Prerequisites →</a></article>
+        <article class="card"><p class="kicker">02 · Store</p><h3>Create your Neon database</h3><p>Choose the region and connect Neon through Vercel. Your data stays in accounts you control.</p><a href="/guide/02-neon-database.html">Neon database →</a></article>
+        <article class="card"><p class="kicker">03 · Deploy</p><h3>Deploy the public template</h3><p>Clone the buyer template into your own private repository and launch it on Vercel.</p><a href="/guide/03-deploy-to-vercel.html">Deploy →</a></article>
+        <article class="card"><p class="kicker">04 · Configure</p><h3>Add only your variables</h3><p>Use the minimum required secrets. Vendor Stripe, campaign, and signing variables do not belong here.</p><a href="/guide/04-environment-variables.html">Environment variables →</a></article>
+        <article class="card"><p class="kicker">05 · Finish</p><h3>Run the setup wizard</h3><p>Test the connection, run migrations, optionally activate Pro offline, and set your owner password.</p><a href="/guide/05-setup-wizard.html">Setup wizard →</a></article>
+        <article class="card"><p class="kicker">06 · Import</p><h3>Bring your own records</h3><p>Preview CSV or Excel files in your browser, map columns, and commit only what you recognise.</p><a href="/guide/07-import-your-data.html">Import guide →</a></article>
+      </div>
+    </div></section>
+    <section class="section"><div class="container"><div class="grid cards">
+      <article class="card"><p class="eyebrow">Privacy by architecture</p><h3>We literally cannot see your data.</h3><p>Your NomadWealth code runs in your Vercel project and talks to your Neon database. This kit does not connect to either one and does not ask you to paste a connection string here.</p><a href="/privacy.html">Read what this site does →</a></article>
+      <article class="card"><p class="eyebrow">After launch</p><h3>Keep the install healthy.</h3><p>Use the optional integrations only when you need them, keep backups enabled, and review the security checklist after setup.</p><a href="/guide/08-optional-keys-and-cron.html">Optional keys and cron →</a></article>
+    </div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>NomadWealth Private Setup Kit</span><span><a href="/security-checklist.html">Security</a> · <a href="/privacy.html">Privacy</a> · <a href="/llms.txt">Plain-text guide</a></span></div></footer>
+</body>
+</html>
